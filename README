@@ -30,19 +30,6 @@ Then to sync up:
 
     repo sync
 
-Build
---------
-
-Assumed current directory is patchtom and you want to build the ROM for Nexus6P
-
-
-     . build/envsetup.sh
-     cd angler
-     make fullota
-
-After build completed, there will be a fullota.zip under out directory, now you can flash this file into your device.
-
-
 Porting new device
 ------------------
 
@@ -61,9 +48,9 @@ Workflow:
 
      . build/envsetup.sh
 
-     mkdir xblade
+     mkdir vivo5
 
-     cd xblade
+     cd vuvi5
       
      adb reboot recovery
 
